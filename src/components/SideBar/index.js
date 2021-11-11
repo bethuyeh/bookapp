@@ -1,0 +1,35 @@
+import React from 'react'
+import { SidebarContainer,
+         Icon,
+         CloseIcon,
+         SidebarWrapper,
+         SidebarMenu,
+         SidebarLink,
+         SideBtnWrap,
+         SideBtn
+ } from './SideElements'
+
+const SideBar = ({isOpen, toggle}) => {
+    return (
+        <SidebarContainer isOpen={isOpen} onClick={toggle}>
+            <Icon onClick={toggle}>
+                <CloseIcon />
+            </Icon>
+            <SidebarWrapper>
+                <SidebarMenu>
+                    <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
+                    <SidebarLink to='discover' onClick={toggle}>Discover</SidebarLink>
+                    <SidebarLink to='contact' onClick={toggle} >Contact</SidebarLink>
+                    <SidebarLink to='signup' onClick={toggle}>Sign Up</SidebarLink>
+                </SidebarMenu>
+
+                <SideBtnWrap>
+                    <SideBtn to='signin'>Sign In</SideBtn>
+                </SideBtnWrap>
+            </SidebarWrapper>
+        </SidebarContainer>
+    )
+}
+
+export default SideBar
+
