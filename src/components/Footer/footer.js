@@ -6,7 +6,13 @@ import { FooterContainer,
         FooterLinksWrapper,
         FooterLinkItems,
         FooterLinkTitle,
-        FooterLink
+        FooterLink,
+        SocialMedia,
+        SocialMediaWrap,
+        SocialIcons,
+        SocialIconsLink,
+        WebsiteRights,
+        SocialLogo
 } from './FooterElements';
 
 const Footer = () => {
@@ -17,21 +23,21 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About us</FooterLinkTitle>
-                                <FooterLink to='/signin'>How it works</FooterLink>
-                                <FooterLink to='/signin'>Testimonials</FooterLink>
-                                <FooterLink to='/signin'>Careers</FooterLink>
-                                <FooterLink to='/signin'>Investors</FooterLink>
-                                <FooterLink to='/signin'>Terms of service</FooterLink>
+                                <FooterLink >How it works</FooterLink>
+                                <FooterLink >Testimonials</FooterLink>
+                                <FooterLink >Careers</FooterLink>
+                                <FooterLink >Investors</FooterLink>
+                                <FooterLink >Terms of service</FooterLink>
                             
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinkTitle>About us</FooterLinkTitle>
-                                <FooterLink to='/signin'>How it works</FooterLink>
-                                <FooterLink to='/signin'>Testimonials</FooterLink>
-                                <FooterLink to='/signin'>Careers</FooterLink>
-                                <FooterLink to='/signin'>Investors</FooterLink>
-                                <FooterLink to='/signin'>Terms of service</FooterLink>
+                                <FooterLink >How it works</FooterLink>
+                                <FooterLink >Testimonials</FooterLink>
+                                <FooterLink >Careers</FooterLink>
+                                <FooterLink >Investors</FooterLink>
+                                <FooterLink>Terms of service</FooterLink>
                             
                         </FooterLinkItems>
                     </FooterLinksWrapper>
@@ -39,46 +45,46 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About us</FooterLinkTitle>
-                                <FooterLink to='/signin'>How it works</FooterLink>
-                                <FooterLink to='/signin'>Testimonials</FooterLink>
-                                <FooterLink to='/signin'>Careers</FooterLink>
-                                <FooterLink to='/signin'>Investors</FooterLink>
-                                <FooterLink to='/signin'>Terms of service</FooterLink>
+                                <FooterLink >How it works</FooterLink>
+                                <FooterLink>Testimonials</FooterLink>
+                                <FooterLink>Careers</FooterLink>
+                                <FooterLink>Investors</FooterLink>
+                                <FooterLink>Terms of service</FooterLink>
                             
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                <FooterLink href='/signin'>Instagram</FooterLink>
-                                <FooterLink href='/signin'>Facebook</FooterLink>
-                                <FooterLink href='/signin'>Twitter</FooterLink>
-                                <FooterLink href='/signin'>LinkedIn</FooterLink>
-                                <FooterLink href='/signin'>YouTube</FooterLink>
+                                <FooterLink >Instagram</FooterLink>
+                                <FooterLink >Facebook</FooterLink>
+                                <FooterLink >Twitter</FooterLink>
+                                <FooterLink >LinkedIn</FooterLink>
+                                <FooterLink >YouTube</FooterLink>
                             
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/'>
+                        <SocialLogo >
                             MAU
                         </SocialLogo>
                         <WebsiteRights>MAU © {new Date().getFullYear()}</WebsiteRights>
                         All rigths reserved.
                         <SocialIcons>
-                            <SocialIconsLink href='/' target="_blank" aria-label="Facebook">
+                            <SocialIconsLink  target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconsLink>
-                            <SocialIconsLink href='/' target="_blank" aria-label="Instagram">
+                            <SocialIconsLink  target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconsLink>
-                            <SocialIconsLink href='/' target="_blank" aria-label="Twitter">
+                            <SocialIconsLink  target="_blank" aria-label="Twitter">
                                 <FaTwitter />
                             </SocialIconsLink>
-                            <SocialIconsLink href='/' target="_blank" aria-label="YouTube">
+                            <SocialIconsLink  target="_blank" aria-label="YouTube">
                                 <FaYoutube />
                             </SocialIconsLink>
-                            <SocialIconsLink href='/' target="_blank" aria-label="LinkedIn">
+                            <SocialIconsLink  target="_blank" aria-label="LinkedIn">
                                 <FaLinkedin />
                             </SocialIconsLink>
                         </SocialIcons>

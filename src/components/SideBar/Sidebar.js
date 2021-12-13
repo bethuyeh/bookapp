@@ -17,14 +17,14 @@ const SideBar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to='discover' onClick={toggle}>Discover</SidebarLink>
-                    <SidebarLink to='contact' onClick={toggle} >Contact</SidebarLink>
-                    <SidebarLink to='signup' onClick={toggle}>Sign Up</SidebarLink>
+                    <SidebarLink to='/about' onClick={toggle}>About</SidebarLink>
+                    <SidebarLink to='/discover' onClick={toggle}>Discover</SidebarLink>
+                    <SidebarLink to='/services' onClick={toggle} >Services</SidebarLink>
+                    <SidebarLink to='/signup' onClick={toggle}>Sign Up</SidebarLink>
                 </SidebarMenu>
 
                 <SideBtnWrap>
-                    <SideBtn to='signin'>Sign In</SideBtn>
+                    <SideBtn to='/signin'>Sign In</SideBtn>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
