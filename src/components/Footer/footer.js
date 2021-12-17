@@ -23,21 +23,21 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About us</FooterLinkTitle>
-                                <FooterLink >How it works</FooterLink>
-                                <FooterLink >Testimonials</FooterLink>
-                                <FooterLink >Careers</FooterLink>
-                                <FooterLink >Investors</FooterLink>
-                                <FooterLink >Terms of service</FooterLink>
+                                <FooterLink to='/'>How it works</FooterLink>
+                                <FooterLink to='/'>Testimonials</FooterLink>
+                                <FooterLink to='/'>Careers</FooterLink>
+                                <FooterLink to='/'>Investors</FooterLink>
+                                <FooterLink to='/'>Terms of service</FooterLink>
                             
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinkTitle>About us</FooterLinkTitle>
-                                <FooterLink >How it works</FooterLink>
-                                <FooterLink >Testimonials</FooterLink>
-                                <FooterLink >Careers</FooterLink>
-                                <FooterLink >Investors</FooterLink>
-                                <FooterLink>Terms of service</FooterLink>
+                                <FooterLink to='/'>How it works</FooterLink>
+                                <FooterLink to='/'>Testimonials</FooterLink>
+                                <FooterLink to='/'>Careers</FooterLink>
+                                <FooterLink to='/'>Investors</FooterLink>
+                                <FooterLink to='/'>Terms of service</FooterLink>
                             
                         </FooterLinkItems>
                     </FooterLinksWrapper>
@@ -45,46 +45,46 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About us</FooterLinkTitle>
-                                <FooterLink >How it works</FooterLink>
-                                <FooterLink>Testimonials</FooterLink>
-                                <FooterLink>Careers</FooterLink>
-                                <FooterLink>Investors</FooterLink>
-                                <FooterLink>Terms of service</FooterLink>
+                                <FooterLink to='/'>How it works</FooterLink>
+                                <FooterLink to='/'>Testimonials</FooterLink>
+                                <FooterLink to='/'>Careers</FooterLink>
+                                <FooterLink to='/'>Investors</FooterLink>
+                                <FooterLink to='/'>Terms of service</FooterLink>
                             
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                <FooterLink >Instagram</FooterLink>
-                                <FooterLink >Facebook</FooterLink>
-                                <FooterLink >Twitter</FooterLink>
-                                <FooterLink >LinkedIn</FooterLink>
-                                <FooterLink >YouTube</FooterLink>
+                                <FooterLink to='/'>Instagram</FooterLink>
+                                <FooterLink to='/'>Facebook</FooterLink>
+                                <FooterLink to='/'>Twitter</FooterLink>
+                                <FooterLink to='/'>LinkedIn</FooterLink>
+                                <FooterLink to='/'>YouTube</FooterLink>
                             
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo >
+                        <SocialLogo to='/'>
                             MAU
                         </SocialLogo>
                         <WebsiteRights>MAU © {new Date().getFullYear()}</WebsiteRights>
                         All rigths reserved.
                         <SocialIcons>
-                            <SocialIconsLink  target="_blank" aria-label="Facebook">
+                            <SocialIconsLink to='/' target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconsLink>
-                            <SocialIconsLink  target="_blank" aria-label="Instagram">
+                            <SocialIconsLink to='/' target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconsLink>
-                            <SocialIconsLink  target="_blank" aria-label="Twitter">
+                            <SocialIconsLink to='/' target="_blank" aria-label="Twitter">
                                 <FaTwitter />
                             </SocialIconsLink>
-                            <SocialIconsLink  target="_blank" aria-label="YouTube">
+                            <SocialIconsLink to='/' target="_blank" aria-label="YouTube">
                                 <FaYoutube />
                             </SocialIconsLink>
-                            <SocialIconsLink  target="_blank" aria-label="LinkedIn">
+                            <SocialIconsLink to='/' target="_blank" aria-label="LinkedIn">
                                 <FaLinkedin />
                             </SocialIconsLink>
                         </SocialIcons>
