@@ -93,6 +93,7 @@ export const HeroBtn = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center; 
+    
 `
 export const ArrowForward = styled(MdArrowForward)`
     margin-left: 8px;
